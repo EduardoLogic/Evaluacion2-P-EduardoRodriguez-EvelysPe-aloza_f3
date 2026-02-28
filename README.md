@@ -12,6 +12,13 @@
 ## Enunciado Asignado
 **Enunciado 8: Restaurante** (Relación: Menú -> Platillos)
 
+## Visualización de la Aplicación
+
+Aquí puedes ver cómo luce el sistema de gestión de platillos:
+
+![Lista de Platillos](images/1L.png)
+![Formulario de Creación](images/2L.png)
+
 ## Instrucciones de Ejecución
 Para correr el proyecto localmente, siga estos pasos:
 
