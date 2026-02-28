@@ -11,10 +11,9 @@ return new class extends Migration
         Schema::create('platillos', function (Blueprint $table) {
             $table->id();
             $table->string('nombre');
-            $table->integer('calorias'); // Campo entero
-            $table->boolean('disponible')->default(true); // Booleano
+            $table->integer('calorias');
+            $table->boolean('disponible')->default(true);
 
-            // Relación con tabla menus
             $table->foreignId('menu_id')->constrained()->onDelete('cascade');
             
             $table->timestamps();

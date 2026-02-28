@@ -22,7 +22,6 @@ class PlatilloController extends Controller
 
     public function store(Request $request)
     {
-        // Validación según el enunciado
         $request->validate([
             'nombre' => 'required|string|max:255',
             'calorias' => 'required|integer|min:0',

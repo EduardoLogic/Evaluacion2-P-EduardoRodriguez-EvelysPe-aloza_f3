@@ -10,8 +10,8 @@ return new class extends Migration
     {
         Schema::create('menus', function (Blueprint $table) {
             $table->id();
-            $table->string('nombre'); // Nombre del menú (tipo texto)
-            $table->timestamps(); // created_at y updated_at
+            $table->string('nombre');
+            $table->timestamps();
         });
     }
 
