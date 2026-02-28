@@ -16,8 +16,8 @@
 
 Aquí puedes ver cómo luce el sistema de gestión de platillos:
 
-![Lista de Platillos](images/1L.png)
-![Formulario de Creación](images/2L.png)
+![Lista de Platillos](images/1L.jpg)
+![Formulario de Creación](images/2L.jpg)
 
 ## Instrucciones de Ejecución
 Para correr el proyecto localmente, siga estos pasos:
